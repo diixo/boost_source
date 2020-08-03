@@ -1,0 +1,12 @@
+
+#folder build
+x64/
+build/
+debug/
+.vs/
+.vscode/
+*.user
+*.vc.*db
+*~
+Jamfile*
+
