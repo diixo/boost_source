@@ -1,7 +1,7 @@
 
 cmake_minimum_required (VERSION 2.8)
 
-project (boost-vs)
+project (boost-vs2015)
 
 # Set compiler flags and options. 
 if (MSVC) # MSVC compiler (Win32 only)
@@ -20,10 +20,11 @@ endif ()
 # Command to output information to the console
 # Useful for displaying errors, warnings, and debugging
 message ("cxx Flags: " ${CMAKE_CXX_FLAGS})
+message ("CMAKE_SOURCE_DIR=" ${CMAKE_SOURCE_DIR})
 
 # Sub-directories where more CMakeLists.txt exist
-#add_subdirectory (src)
+add_subdirectory (boost)
 
 # Set include-directory
 # include_directories(${INCLUDE_DIRS})
-#include_directories(boost)
+include_directories(${CMAKE_SOURCE_DIR}/boost)
