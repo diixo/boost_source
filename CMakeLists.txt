@@ -22,9 +22,11 @@ endif ()
 message ("cxx Flags: " ${CMAKE_CXX_FLAGS})
 message ("CMAKE_SOURCE_DIR=" ${CMAKE_SOURCE_DIR})
 
+# Set include-directory
+# include_directories(${INCLUDE_DIRS})
+# need set include before
+include_directories (${CMAKE_SOURCE_DIR})
+
 # Sub-directories where more CMakeLists.txt exist
 add_subdirectory (boost)
 
-# Set include-directory
-# include_directories(${INCLUDE_DIRS})
-include_directories(${CMAKE_SOURCE_DIR}/boost)
