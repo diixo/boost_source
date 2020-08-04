@@ -10,7 +10,8 @@ Included libraries: boost.exeption, boost.smart_ptr.
 # Build options
 
 ```
-mkdir build
-cmake --build ./build --config Debug --target boost
-make
+mkdir boost_source_build
+cd boost_source_build
+cmake -DCMAKE_BUILD_TYPE=Debug ../boost_source
+cmake --build .
 ```
