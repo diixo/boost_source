@@ -34,11 +34,11 @@ namespace posix_time {
   //! ptime_input_facet is depricated and will be phased out. use time_input_facet instead
   //typedef boost::date_time::time_input_facet<ptime,char>     ptime_input_facet;
 
-  typedef boost::date_time::time_facet<ptime, wchar_t>     wtime_facet;
-  typedef boost::date_time::time_facet<ptime, char>         time_facet;
+  //typedef boost::date_time::time_facet<ptime, wchar_t>     wtime_facet;
+  //typedef boost::date_time::time_facet<ptime, char>         time_facet;
 
-  typedef boost::date_time::time_input_facet<ptime, wchar_t>     wtime_input_facet;
-  typedef boost::date_time::time_input_facet<ptime, char>         time_input_facet;
+  //typedef boost::date_time::time_input_facet<ptime, wchar_t>     wtime_input_facet;
+  //typedef boost::date_time::time_input_facet<ptime, char>         time_input_facet;
 
   template <class CharT, class TraitsT>
   inline

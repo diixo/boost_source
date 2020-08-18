@@ -10,6 +10,7 @@
  * $Date: 2008-11-13 15:10:23 -0500 (Thu, 13 Nov 2008) $
  */
 
+#include <vector>
 #include <boost/throw_exception.hpp>
 #include <boost/date_time/string_parse_tree.hpp>
 #include <boost/date_time/string_convert.hpp>
@@ -39,8 +40,8 @@ namespace boost { namespace date_time {
     typedef CharT                    char_type;
     //typedef typename std::basic_string<char_type>::const_iterator const_itr_type;
     typedef std::istreambuf_iterator<CharT> stream_itr_type;
-    typedef string_parse_tree<CharT> parse_tree_type;
-    typedef typename parse_tree_type::parse_match_result_type match_results;
+    //typedef string_parse_tree<CharT> parse_tree_type;
+    //typedef typename parse_tree_type::parse_match_result_type match_results;
     typedef std::vector<std::basic_string<CharT> > collection_type;
 
     static const char_type default_period_separator[2];

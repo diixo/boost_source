@@ -17,6 +17,10 @@
 #ifndef BOOST_CONFIG_HPP
 #define BOOST_CONFIG_HPP
 
+#define BOOST_ALL_NO_LIB
+#define BOOST_THREAD_BUILD_LIB
+#define BOOST_NO_TYPEID
+
 // if we don't have a user config, then use the default location:
 #if !defined(BOOST_USER_CONFIG) && !defined(BOOST_NO_USER_CONFIG)
 #  define BOOST_USER_CONFIG <boost/config/user.hpp>

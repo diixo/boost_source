@@ -13,7 +13,7 @@
 
 #include <boost/test/unit_test.hpp>
 
-#include <libs/thread/test/util.inl>
+#include <boost/thread/test/util.inl>
 
 struct condition_test_data
 {

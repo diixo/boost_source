@@ -21,11 +21,11 @@
 namespace boost {
 namespace local_time {
 
-  typedef boost::date_time::time_facet<local_date_time, wchar_t> wlocal_time_facet;
-  typedef boost::date_time::time_facet<local_date_time, char>     local_time_facet;
+  //typedef boost::date_time::time_facet<local_date_time, wchar_t> wlocal_time_facet;
+  //typedef boost::date_time::time_facet<local_date_time, char>     local_time_facet;
 
-  typedef boost::date_time::time_input_facet<local_date_time::utc_time_type,wchar_t> wlocal_time_input_facet;
-  typedef boost::date_time::time_input_facet<local_date_time::utc_time_type,char>     local_time_input_facet;
+  //typedef boost::date_time::time_input_facet<local_date_time::utc_time_type,wchar_t> wlocal_time_input_facet;
+  //typedef boost::date_time::time_input_facet<local_date_time::utc_time_type,char>     local_time_input_facet;
 
   //! operator<< for local_date_time - see local_time docs for formatting details
   template<class CharT, class TraitsT>

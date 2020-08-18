@@ -26,7 +26,7 @@
 #include <boost/scoped_array.hpp>
 #include <boost/utility/enable_if.hpp>
 #include <list>
-#include <boost/next_prior.hpp>
+//#include <boost/next_prior.hpp>
 #include <vector>
 
 namespace boost

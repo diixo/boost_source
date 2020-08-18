@@ -28,8 +28,8 @@ namespace gregorian {
   typedef boost::date_time::period_formatter<wchar_t> wperiod_formatter;
   typedef boost::date_time::period_formatter<char>    period_formatter;
   
-  typedef boost::date_time::date_facet<date,wchar_t> wdate_facet;
-  typedef boost::date_time::date_facet<date,char>    date_facet;
+  //typedef boost::date_time::date_facet<date,wchar_t> wdate_facet;
+  //typedef boost::date_time::date_facet<date,char>    date_facet;
 
   typedef boost::date_time::period_parser<date,char>       period_parser;
   typedef boost::date_time::period_parser<date,wchar_t>    wperiod_parser;
@@ -37,11 +37,11 @@ namespace gregorian {
   typedef boost::date_time::special_values_formatter<char> special_values_formatter; 
   typedef boost::date_time::special_values_formatter<wchar_t> wspecial_values_formatter; 
   
-  typedef boost::date_time::special_values_parser<date,char> special_values_parser; 
-  typedef boost::date_time::special_values_parser<date,wchar_t> wspecial_values_parser; 
+  //typedef boost::date_time::special_values_parser<date,char> special_values_parser; 
+  //typedef boost::date_time::special_values_parser<date,wchar_t> wspecial_values_parser; 
   
-  typedef boost::date_time::date_input_facet<date,char>    date_input_facet;
-  typedef boost::date_time::date_input_facet<date,wchar_t> wdate_input_facet;
+  //typedef boost::date_time::date_input_facet<date,char>    date_input_facet;
+  //typedef boost::date_time::date_input_facet<date,wchar_t> wdate_input_facet;
 
   template <class CharT, class TraitsT>
   inline std::basic_ostream<CharT, TraitsT>&
