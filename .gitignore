@@ -8,5 +8,5 @@ debug/
 *.user
 *.vc.*db
 *~
-Jamfile*
+Jamfile
 
